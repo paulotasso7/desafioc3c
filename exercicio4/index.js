@@ -3,7 +3,6 @@ const btn = document.getElementById("submit");
 const input = document.getElementById("l-m");
 
 function luidyMouraFunction(int) {
-  console.log("click");
   int = input.value;
   let array = [];
   for (i = 1; i <= int; i++) {

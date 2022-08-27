@@ -1,7 +1,7 @@
 const btn = document.querySelector("#submit");
-let ladoA = document.querySelector("#l-a");
-let ladoB = document.querySelector("#l-b");
-let ladoC = document.querySelector("#l-c");
+const ladoA = document.querySelector("#l-a");
+const ladoB = document.querySelector("#l-b");
+const ladoC = document.querySelector("#l-c");
 const tipoDoTriangulo = document.querySelector("#result");
 
 function triangleClassification(l1, l2, l3) {

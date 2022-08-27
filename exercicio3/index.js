@@ -3,7 +3,6 @@ const btn = document.getElementById("submit");
 const input = document.getElementById("l-n");
 
 function calculoAprovacao(nota) {
-  console.log("click");
   nota = input.value;
   const notaArredondada = Math.ceil(nota / 5) * 5;
 
